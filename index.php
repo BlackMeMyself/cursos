@@ -2,7 +2,7 @@
 <main>
     <div class="mainContainer">
         <section>
-            <h1>Cursos</h1>
+            <h1>Cursos Desempleados</h1>
             <div class="cursosContainer">
                 <a href="">
                     <article class="curso">
