@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: normal;
+}
+
+
+/*HEADER*/
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    background-color: white;
+    align-items: center;
+}
+
+header nav ul li.logo {
+    flex: 1;
+    font-size: 1.5em;
+}
+
+header nav ul li {
+    padding: 2px 10px;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li.activo {
+    border-bottom: 1px solid gray;
+}
+
+
+/* MAIN*/
+
+main {
+    display: flex;
+    padding: 15px;
+}
+
+main form div.form_input {
+    margin: 15px;
+}
+
+main form button {
+    background-color: black;
+    border: 1px solid white;
+    font-size: 1.05em;
+    padding: 5px;
+}
+
+main form select,
+main form select option {
+    color: black;
+    width: 180px;
+    font-weight: bolder;
+}
+
+main form div.form_input input {
+    color: black;
+}
+
+main div.curso-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main div.curso-container section.curso-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+main div.curso-container section.curso-info {
+    display: flex;
+    width: 100%;
+}
+
+main div.curso-container section.curso-info div.curso-data {
+    width: 55%;
+    padding: 5px;
+}
+
+main div.curso-container section.curso-info div.curso-data ul {
+    list-style: none;
+}
+
+main div.curso-container section.curso-info div.curso-data ul li {
+    font-size: 1em;
+}
+
+main div.curso-container section.curso-info div.curso-img {
+    width: 35%;
+    padding: 5px;
+}
+
+main div.curso-container section.curso-info div.curso-img img {
+    width: 100%;
+}
+
+main div.mainContainer {
+    width: 85%;
+}
+
+main div.mainContainer section div.cursosContainer {
+    display: flex;
+    overflow: auto;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+main div.mainContainer section div.cursosContainer a {
+    width: 30%;
+    margin: 15px;
+    flex: 0 0 auto;
+}
+
+main div.mainContainer section div.cursosContainer a article.curso {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main div.mainContainer section div.cursosContainer a article.curso img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid white;
+    border-top: 14px solid white;
+}
+
+main div.mainContainer section div.noticiasContainer {
+    display: flex;
+    overflow: auto;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+main div.mainContainer section div.noticiasContainer a {
+    width: 30%;
+    margin: 15px;
+    flex: 0 0 auto;
+}
+
+main div.mainContainer section div.noticiasContainer a article.noticias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main div.mainContainer section div.noticiasContainer a article.noticias img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid white;
+    border-top: 14px solid white;
+}
+
+main aside {
+    width: 15%;
+}
+
+main aside ul {
+    list-style: none;
+}
+
+main aside ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main aside ul li img {
+    width: 100%;
+}
+
+
+/*FOOTER*/
+
+footer {
+    margin-top: auto;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
